@@ -166,6 +166,10 @@ main {
   width: calc(100% / 6);
 }
 
+.info p {
+  color: #fff;
+}
+
 /* ==================================== */
 /*               PROJECTS               */
 /* ==================================== */
@@ -178,9 +182,65 @@ main {
   margin-left: 30px;
   height: calc(583px - 40px);
   text-align: left;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.projects::-webkit-scrollbar {
+  display: none;
 }
 
 .projects h2 {
   letter-spacing: 0.3px;
   font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 24px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.project:first-of-type {
+  margin-top: 0;
+}
+
+.project > div {
+  flex: 2;
+}
+
+.project-title {
+  font-size: 22px;
+}
+
+.project-description {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.btn-project {
+  flex: 1;
+  padding: 15px 15px;
+  margin: 15px 0;
+  border-radius: 24px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  background-color: #00cc99;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color, transform, letter-spacing 0.3s ease;
+}
+
+.btn-project:hover {
+  transform: scale(0.98);
+  background-color: #11ddaa;
+  letter-spacing: 0.5px;
 }
