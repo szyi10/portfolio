@@ -1,0 +1,23 @@
+.header {
+  text-align: center;
+}
+
+.header__title {
+  font-size: 42px;
+  padding: 0 70px;
+}
+
+@media (width <= 768px) {
+  .header__title {
+    margin-top: 50px;
+    font-size: 36px;
+  }
+}
+
+@media (width <= 462px) {
+  .header__title {
+    text-align: center;
+    font-size: 30px;
+    white-space: nowrap;
+  }
+}

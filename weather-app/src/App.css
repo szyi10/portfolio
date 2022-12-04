@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+:root {
+  --color-primary: #00cc99;
+  --color-secondary: #0066ff;
+  --color-background: #002233;
+  --color-light: #fff;
+  --color-dark: #1e1e1e;
+
+  --font-primary: "Lato", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a,
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  background-image: url("./assets/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  overflow: hidden;
+}
