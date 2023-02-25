@@ -1,0 +1,102 @@
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.project img {
+  border-radius: 1rem;
+  width: 35%;
+}
+
+.content {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.tags {
+  display: flex;
+  gap: 1rem;
+  text-transform: uppercase;
+}
+
+.tags p {
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+}
+
+.react {
+  color: #0084ff;
+}
+
+.firebase {
+  color: #ff9500;
+}
+
+.sass {
+  color: #ff395d;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.controls a {
+  position: relative;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--c-primary1);
+  transition: color 0.2s ease-in-out;
+}
+
+.controls a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--c-primary1);
+  transition: width 0.3s;
+}
+
+.controls a:hover::before {
+  width: 100%;
+}
+
+@media (width <= 1200px) {
+  .project img {
+    width: 40%;
+  }
+
+  .content {
+    width: 60%;
+  }
+}
+
+@media (width <= 960px) {
+  .project {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .project img {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
