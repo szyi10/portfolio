@@ -33,10 +33,15 @@
 .method p {
   margin: 0;
   margin-left: 6px;
+  transition: color 0.3s ease;
 }
 
 .method img {
   width: 16px;
+}
+
+.method p:hover {
+  color: var(--c-primary1);
 }
 
 small {

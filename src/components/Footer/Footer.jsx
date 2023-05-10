@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 
 import discord from "../../assets/discord.svg"
 import mail from "../../assets/mail.svg"
+import linkedin from "../../assets/linkedin.svg"
 import classes from "./Footer.module.css"
 
 const Footer = () => {
@@ -27,6 +28,15 @@ const Footer = () => {
             <div className={classes.method}>
               <img src={discord} />
               <p>szyi#0093</p>
+            </div>
+            <div className={classes.method}>
+              <img src={linkedin} />
+              <a
+                href="https://www.linkedin.com/in/szymon-ked16/"
+                target="_blank"
+              >
+                <p>Szymon Kędzior</p>
+              </a>
             </div>
           </div>
         </div>

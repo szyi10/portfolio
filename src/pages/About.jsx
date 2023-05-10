@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
 
 const About = () => {
@@ -24,11 +25,8 @@ const About = () => {
       </div>
       <div>
         <h3>Skills</h3>
-        <p>HTML, CSS, JavaScript, React, Bootstrap, Sass</p>
-        <p>
-          Currently I'm learning Redux and in the near future I'm planning to
-          learn TypeScript.
-        </p>
+        <p>HTML, CSS, JavaScript, React, TailwindCSS, Sass</p>
+        <p>In the near future I'm planning to learn TypeScript.</p>
       </div>
       <div>
         <h3>Experience</h3>
@@ -36,7 +34,10 @@ const About = () => {
           I recently graduated from school, so my commercial experience is
           limited. However, I was on school internships where I was building
           applications in JavaScript, e.g. dashboard. I also did many projects
-          myself in JavaScript and React.
+          myself in JavaScript and React that you can see{" "}
+          <Link to="/projects" style={{ color: "#4caf50" }}>
+            here.
+          </Link>
         </p>
       </div>
       <div>
@@ -58,9 +59,9 @@ const About = () => {
         <p>
           My greatest asset is calmness, which helps a lot in working under
           pressure and dealing with stress. I like to think about a lot of
-          problems or questions I've asked myself and solve them in my head,
-          which is why I have pretty decent problem solving skills. I'm also a
-          perfectionist, so I pay attention to details.
+          problems or questions I've asked myself and solve them, which is why I
+          have pretty decent problem solving skills. I'm also a perfectionist,
+          so I pay attention to details.
         </p>
       </div>
       <div>

@@ -9,6 +9,7 @@
 .project img {
   border-radius: 1rem;
   width: 35%;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
 .content {
@@ -43,6 +44,26 @@
 
 .sass {
   color: #ff395d;
+}
+
+.tailwind {
+  color: #3d9cc2;
+}
+
+.css {
+  color: #976fb6;
+}
+
+.redux {
+  color: #6d7c82;
+}
+
+.js {
+  color: #dfc209;
+}
+
+.html {
+  color: #de9203;
 }
 
 .controls {
