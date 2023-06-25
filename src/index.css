@@ -7,6 +7,7 @@
   --c-primary1: hsl(var(--current-h), var(--current-s), 49%);
   --c-primary2: hsl(var(--current-h), var(--current-s), 59%);
   --c-primary3: hsl(var(--current-h), var(--current-s), 39%);
+  --c-primary4: hsl(var(--current-h), var(--current-s), 79%);
 
   --c-gray1: #f5f5f5;
   --c-gray2: #d3d3d3;

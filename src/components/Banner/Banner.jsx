@@ -41,6 +41,14 @@ const Banner = () => {
             <Link to="/about">more info...</Link>
           </b>
         </p>
+        <div className={classes.links}>
+          <a href="https://github.com/szyi10/" target="_blank">
+            <i className="bx bxl-github"></i> Github
+          </a>
+          <a href="https://www.linkedin.com/in/szymon-ked16/" target="_blank">
+            <i className="bx bxl-linkedin-square"></i> Linkedin
+          </a>
+        </div>
       </div>
     </section>
   )

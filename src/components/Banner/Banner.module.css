@@ -17,6 +17,7 @@
 
 .banner p {
   color: var(--c-gray4);
+  margin-bottom: 0.5rem;
 }
 
 .banner p span {
@@ -37,6 +38,7 @@
   background-color: var(--c-primary1);
   transition: background-color 0.3s ease-in-out;
   animation: morph 10s linear infinite;
+  box-shadow: var(--c-primary4) 0px 7px 29px 0px;
 }
 
 .img img {
@@ -54,6 +56,21 @@
 .banner button {
   padding: 14px 32px;
   letter-spacing: 0.02rem;
+}
+
+.links {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.links a {
+  background-color: var(--c-primary4);
+  color: var(--c-primary3);
+  padding: 2px 10px;
+  font-size: 14px;
+  border-radius: 1rem;
 }
 
 .colors {
@@ -117,6 +134,10 @@
 
   .img {
     display: none;
+  }
+
+  .links {
+    justify-content: center;
   }
 
   .colors {
