@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Routes, Route, useLocation } from "react-router-dom"
 import { AnimatePresence } from "framer-motion"
 
@@ -9,6 +9,18 @@ import NotFound from "./pages/NotFound"
 
 const App = () => {
   const location = useLocation()
+
+  useEffect(() => {
+    const colorScheme = document.querySelector("html").classList[0]
+    let savedScheme = localStorage.getItem("color")
+
+    if (!savedScheme) {
+      // Create localStoarge key
+      localStorage.setItem("color", colorScheme)
+    } else {
+      document.querySelector("html").classList = savedScheme
+    }
+  }, [])
 
   return (
     <>

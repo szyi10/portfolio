@@ -12,6 +12,7 @@
   margin: 0 0 4px;
   font-size: 3.815rem;
   color: var(--c-primary1);
+  transition: color 0.3s ease;
 }
 
 .banner p {
@@ -29,7 +30,12 @@
   aspect-ratio: 1/1;
   flex: 1;
   overflow: hidden;
-  background: radial-gradient(var(--c-primary2) 0%, var(--c-primary3) 70%);
+  background: radial-gradient(
+    hsla(var(--current-h), var(--current-s), 59%, 0) 0%,
+    hsla(var(--current-h), var(--current-s), 39%, 1) 70%
+  );
+  background-color: var(--c-primary1);
+  transition: background-color 0.3s ease-in-out;
   animation: morph 10s linear infinite;
 }
 
@@ -41,12 +47,49 @@
 }
 
 .content {
+  position: relative;
   flex: 2;
 }
 
 .banner button {
   padding: 14px 32px;
   letter-spacing: 0.02rem;
+}
+
+.colors {
+  position: absolute;
+  /* top: -10px; */
+  bottom: -10px;
+  left: 0;
+  display: flex;
+  gap: 4px;
+}
+
+.colors button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.green,
+.green:hover {
+  background-color: hsl(122, 39%, 49%);
+}
+
+.blue,
+.blue:hover {
+  background-color: hsl(199, 89%, 49%);
+}
+
+.orange,
+.orange:hover {
+  background-color: hsl(31, 97%, 49%);
+}
+
+.violet,
+.violet:hover {
+  background-color: hsl(261, 73%, 49%);
 }
 
 @media (width <= 900px) {
@@ -74,6 +117,16 @@
 
   .img {
     display: none;
+  }
+
+  .colors {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .colors button {
+    width: 12.5px;
+    height: 12.5px;
   }
 }
 
