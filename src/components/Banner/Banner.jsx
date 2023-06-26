@@ -5,6 +5,11 @@ import picture from "../../assets/picture.png"
 import classes from "./Banner.module.css"
 
 const Banner = () => {
+  const changeColor = (color) => {
+    localStorage.setItem("color", color)
+    document.querySelector("html").classList = color
+  }
+
   return (
     <section className={classes.banner}>
       <div className={classes.img}>
@@ -12,14 +17,38 @@ const Banner = () => {
       </div>
       <div className={classes.content}>
         <h2>Szymon Kędzior</h2>
+        <div className={classes.colors}>
+          <button
+            className={classes.green}
+            onClick={() => changeColor("green")}
+          ></button>
+          <button
+            className={classes.blue}
+            onClick={() => changeColor("blue")}
+          ></button>
+          <button
+            className={classes.orange}
+            onClick={() => changeColor("orange")}
+          ></button>
+          <button
+            className={classes.violet}
+            onClick={() => changeColor("violet")}
+          ></button>
+        </div>
         <p>
-          Hi, I'm <span>Szymon Kędzior</span> - self-taught highly motivated{" "}
-          <span>Front End Developer</span> with passion for creating
-          user-friendly and attractive web applications.
+          Highly motivated Frontend Developer -{" "}
+          <b>
+            <Link to="/about">more info...</Link>
+          </b>
         </p>
-        <Link to="/about">
-          <button>Read More</button>
-        </Link>
+        <div className={classes.links}>
+          <a href="https://github.com/szyi10/" target="_blank">
+            <i className="bx bxl-github"></i> Github
+          </a>
+          <a href="https://www.linkedin.com/in/szymon-ked16/" target="_blank">
+            <i className="bx bxl-linkedin-square"></i> Linkedin
+          </a>
+        </div>
       </div>
     </section>
   )
