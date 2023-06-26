@@ -22,15 +22,15 @@ const Footer = () => {
           <h4>Contact</h4>
           <div className={classes.methods}>
             <div className={classes.method}>
-              <img src={mail} />
+              <img src={mail} alt="Mail icon" />
               <p>szymon.ked16@gmail.com</p>
             </div>
             <div className={classes.method}>
-              <img src={discord} />
+              <img src={discord} alt="Discord icon" />
               <p>szyi#0093</p>
             </div>
             <div className={classes.method}>
-              <img src={linkedin} />
+              <img src={linkedin} alt="Linkedin icon" />
               <a
                 href="https://www.linkedin.com/in/szymon-ked16/"
                 target="_blank"

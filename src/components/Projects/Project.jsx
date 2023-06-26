@@ -1,13 +1,14 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 import classes from "./Project.module.css"
 
-const Project = ({ data, description }) => {
+const Project = ({ data }) => {
   return (
-    <div className={classes.project}>
-      <img src={data.image} />
+    <Link to={`/project/${data.id}`} className={classes.project}>
+      <img src={data.image} alt={data.name} loading="lazy" />
       <div className={classes.content}>
-        <h3 className={classes.title}>{data.title}</h3>
+        <h3>{data.name}</h3>
         <div className={classes.tags}>
           {data.tags.map((tag, idx) => {
             return (
@@ -17,17 +18,11 @@ const Project = ({ data, description }) => {
             )
           })}
         </div>
-        <p>{description}</p>
-        <div className={classes.controls}>
-          <a href={data.codeLink} target="_blank">
-            Source
-          </a>
-          <a href={data.liveLink} target="_blank">
-            Live
-          </a>
-        </div>
+        <p className={classes.details}>
+          Click for more details <i className="bx bx-pointer"></i>
+        </p>
       </div>
-    </div>
+    </Link>
   )
 }
 

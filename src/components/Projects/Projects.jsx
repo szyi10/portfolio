@@ -9,19 +9,20 @@ const Projects = () => {
   return (
     <section className={classes.projects} id="projects">
       <h1>Projects</h1>
-      {projects.map((project, idx) => {
-        if (idx >= 3) return
+      <p className={classes.info}>
+        I have only shared a few of my projects here. You can find all of my
+        projects on my{" "}
+        <a href="">
+          <i className="bx bxl-github"></i> github profile
+        </a>
+        .
+      </p>
+      <div className={classes["projects-list"]}>
+        {projects.map((project, idx) => {
+          if (idx >= 3) return
 
-        return (
-          <Project
-            key={project.id}
-            data={project}
-            description={project.shortDescription}
-          />
-        )
-      })}
-      <div className={classes.more}>
-        <Link to="/projects">See More</Link>
+          return <Project key={project.id} data={project} />
+        })}
       </div>
     </section>
   )
