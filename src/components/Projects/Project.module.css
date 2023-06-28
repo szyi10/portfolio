@@ -9,10 +9,12 @@
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+  animation: move 3s infinite forwards;
 }
 
 .project:hover {
   box-shadow: 0px 0px 8px 0px hsla(var(--current-h), var(--current-s), 79%, 1);
+  animation-duration: 99s;
 }
 
 .project img {
@@ -100,5 +102,28 @@
 
   .buttons button {
     padding: 10px 0;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: rotateZ(0deg);
+    scale: 1;
+  }
+  50% {
+    transform: rotateZ(0deg);
+    scale: 1;
+  }
+  70% {
+    transform: rotateZ(0.3deg);
+    scale: 0.99;
+  }
+  85% {
+    transform: rotateZ(-0.3deg);
+    scale: 1;
+  }
+  100% {
+    transform: rotateZ(0deg);
+    scale: 1;
   }
 }

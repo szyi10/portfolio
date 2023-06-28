@@ -12,7 +12,7 @@ const Projects = () => {
       <p className={classes.info}>
         I have only shared a few of my projects here. You can find all of my
         projects on my{" "}
-        <a href="">
+        <a href="https://github.com/szyi10/" target="_blank">
           <i className="bx bxl-github"></i> github profile
         </a>
         .

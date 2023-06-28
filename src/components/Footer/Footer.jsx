@@ -22,20 +22,30 @@ const Footer = () => {
           <h4>Contact</h4>
           <div className={classes.methods}>
             <div className={classes.method}>
-              <img src={mail} alt="Mail icon" />
-              <p>szymon.ked16@gmail.com</p>
+              <i className="bx bxs-envelope"></i>
+              <a href="mailto:szymon.ked16@gmail.com">
+                <p>szymon.ked16@gmail.com</p>
+              </a>
             </div>
             <div className={classes.method}>
-              <img src={discord} alt="Discord icon" />
-              <p>szyi#0093</p>
+              <i className="bx bxl-twitter"></i>
+              <a href="https://twitter.com/szyked" target="_blank">
+                <p>szyked</p>
+              </a>
             </div>
             <div className={classes.method}>
-              <img src={linkedin} alt="Linkedin icon" />
+              <i className="bx bxl-linkedin-square"></i>
               <a
                 href="https://www.linkedin.com/in/szymon-ked16/"
                 target="_blank"
               >
                 <p>Szymon Kędzior</p>
+              </a>
+            </div>
+            <div className={classes.method}>
+              <i className="bx bxl-github"></i>
+              <a href="https://github.com/szyi10/" target="_blank">
+                <p>szyi10</p>
               </a>
             </div>
           </div>

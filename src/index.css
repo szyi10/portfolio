@@ -129,3 +129,9 @@ button:hover {
     padding: 30px 10%;
   }
 }
+
+@media (width <= 500px) {
+  section {
+    padding: 30px 10px;
+  }
+}

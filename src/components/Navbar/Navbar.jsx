@@ -40,11 +40,11 @@ const Navbar = () => {
           <Link to="/" onClick={closeMenu}>
             Home
           </Link>
+          {/* <Link to={"/projects"} onClick={closeMenu}>
+            CV
+          </Link> */}
           <Link to="/about" onClick={closeMenu}>
             About
-          </Link>
-          <Link to={"/projects"} onClick={closeMenu}>
-            Projects
           </Link>
           <a href="#contact" onClick={closeMenu}>
             Contact

@@ -36,8 +36,8 @@
   transition: color 0.3s ease;
 }
 
-.method img {
-  width: 16px;
+.method i {
+  font-size: 1.2rem;
 }
 
 .method p:hover {
@@ -74,6 +74,12 @@ small {
 
   small {
     margin-top: 30px;
+  }
+}
+
+@media (width <= 500px) {
+  .footer {
+    padding: 15px 10px;
   }
 }
 
