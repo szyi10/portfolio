@@ -8,6 +8,7 @@
   --c-primary2: hsl(var(--current-h), var(--current-s), 59%);
   --c-primary3: hsl(var(--current-h), var(--current-s), 39%);
   --c-primary4: hsl(var(--current-h), var(--current-s), 79%);
+  --c-primary5: hsl(var(--current-h), var(--current-s), 19%);
 
   --c-gray1: #f5f5f5;
   --c-gray2: #d3d3d3;
@@ -126,5 +127,11 @@ button:hover {
 @media (width <= 720px) {
   section {
     padding: 30px 10%;
+  }
+}
+
+@media (width <= 500px) {
+  section {
+    padding: 30px 10px;
   }
 }

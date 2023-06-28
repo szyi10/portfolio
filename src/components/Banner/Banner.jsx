@@ -13,7 +13,7 @@ const Banner = () => {
   return (
     <section className={classes.banner}>
       <div className={classes.img}>
-        <img src={picture} />
+        <img src={picture} alt="Profile picture" />
       </div>
       <div className={classes.content}>
         <h2>Szymon Kędzior</h2>
