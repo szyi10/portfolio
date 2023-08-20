@@ -1,6 +1,6 @@
-import img1 from "../assets/projects/1.jpg"
-import img4 from "../assets/projects/4.jpg"
-import img5 from "../assets/projects/5.png"
+import img1 from "../assets/projects/1.webp"
+import img4 from "../assets/projects/4.webp"
+import img5 from "../assets/projects/5.webp"
 
 export const projects = [
   {

@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
-import { HashLink } from "react-router-hash-link"
 
 import menu from "../../assets/menu.svg"
-import logo from "../../assets/full-logo.png"
+import logo from "../../assets/full-logo.webp"
 import classes from "./Navbar.module.css"
 
 const Navbar = () => {

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-import picture from "../../assets/picture.png"
+import picture from "../../assets/picture.webp"
 import classes from "./Banner.module.css"
 
 const Banner = () => {
@@ -21,18 +21,22 @@ const Banner = () => {
           <button
             className={classes.green}
             onClick={() => changeColor("green")}
+            aria-label="Green button"
           ></button>
           <button
             className={classes.blue}
             onClick={() => changeColor("blue")}
+            aria-label="Blue button"
           ></button>
           <button
             className={classes.orange}
             onClick={() => changeColor("orange")}
+            aria-label="Orange button"
           ></button>
           <button
             className={classes.violet}
             onClick={() => changeColor("violet")}
+            aria-label="Violet button"
           ></button>
         </div>
         <p>
