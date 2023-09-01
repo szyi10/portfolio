@@ -16,7 +16,7 @@ const ProjectDetail = ({ data }) => {
               </button>
             </a>
             <a href={data.codeLink} target="_blank" className={classes.source}>
-              <i class="bx bx-code-alt"></i> Source Link
+              <i className="bx bx-code-alt"></i> Source Link
             </a>
           </div>
         </aside>

@@ -30,7 +30,8 @@
 .firebase,
 .tailwind,
 .css,
-.redux {
+.redux,
+.figma {
   background-color: #000;
   color: #eee;
   padding: 2px 10px;
@@ -61,6 +62,11 @@
 .redux {
   color: hsl(197, 9%, 40%);
   background-color: hsl(197, 9%, 80%);
+}
+
+.figma {
+  color: hsl(160, 100%, 30%);
+  background-color: hsl(160, 100%, 70%);
 }
 
 .buttons {

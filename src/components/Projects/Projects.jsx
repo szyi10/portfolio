@@ -19,8 +19,6 @@ const Projects = () => {
       </p>
       <div className={classes["projects-list"]}>
         {projects.map((project, idx) => {
-          if (idx >= 3) return
-
           return <Project key={project.id} data={project} />
         })}
       </div>
