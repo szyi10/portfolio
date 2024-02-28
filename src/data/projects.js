@@ -1,28 +1,28 @@
-import img1 from "../assets/projects/1.webp"
 import img2 from "../assets/projects/2.webp"
 import img4 from "../assets/projects/4.webp"
-import img5 from "../assets/projects/5.webp"
 
 export const projects = [
   {
-    id: "talkative",
-    image: img1,
-    name: "Talkative",
-    tags: ["react", "firebase", "tailwind"],
+    id: "raceroot",
+    image:
+      "https://raw.githubusercontent.com/szyi10/raceroot-frontend/master/screenshots/raceroot.png",
+    name: "Raceroot",
+    tags: ["react", "tailwind", "node", "express", "mongodb"],
     longDescription:
-      "This project is an internet forum built using React and Firebase. It allows users to create profiles, create new posts on any topic, and engage with other users by commenting on posts. The use of Firebase allows for easy and secure storage of user and post data. Overall, this project provides a user-friendly and interactive platform for people to share ideas and opinions while also fostering a sense of community.",
-    liveLink: "https://react-http-a3a7d.web.app/",
-    codeLink: "https://github.com/szyi10/talkative",
+      "Raceroot is a lively online forum created for lively conversations and quick sharing of brief messages in a friendly digital community. The platform is designed to be user-friendly, allowing users to easily take part in discussions. Additionally, Raceroot includes authentication features, ensuring a secure and personalized experience for users.",
+    liveLink: "https://raceroot.vercel.app/",
+    codeLink: "https://github.com/szyi10/raceroot-frontend",
   },
   {
-    id: "quiz-app",
-    image: img5,
-    name: "Quiz App",
-    tags: ["react", "css"],
+    id: "space-shooter-challenge",
+    image:
+      "https://camo.githubusercontent.com/8e266603bba7d34f016df0a36283813392bf02a0dbe29c89ce3e294905ced9b6/68747470733a2f2f692e696d6775722e636f6d2f33615573446c522e6a706567",
+    name: "Space Shooter Challenge",
+    tags: ["html", "css", "js"],
     longDescription:
-      "A React-based quiz application has been developed to enable users to both solve and create quizzes. With this app, users can test their knowledge on various topics while also having the ability to create their own quizzes using a range of question formats.",
-    liveLink: "https://quiz-app-d8711.web.app/",
-    codeLink: "https://github.com/szyi10/quiz-app",
+      "Space Shooter Challenge is a simple shoot 'em up game where the player controls a spaceship, fights enemy ships, avoids collisions, and destroys adversaries.",
+    liveLink: "https://szyi10.github.io/space-shooter-challenge/",
+    codeLink: "https://github.com/szyi10/space-shooter-challenge",
   },
   {
     id: "password-generator",
@@ -38,7 +38,7 @@ export const projects = [
     id: "landing-page",
     image: img2,
     name: "Landing Page",
-    tags: ["tailwind", "figma"],
+    tags: ["html", "tailwind", "figma"],
     longDescription:
       "👉 The website was created during the recruitment process for the adRespect.pl agency 👈. Landing page built with HTML, CSS and JavaScript based on figma design.",
     liveLink: "https://giarddesign-e7080.web.app",
