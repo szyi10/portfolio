@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-import picture from "../../assets/picture.webp"
+import picture from "../../assets/avatar.png"
 import classes from "./Banner.module.css"
 
 const Banner = () => {
