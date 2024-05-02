@@ -1,7 +1,4 @@
-import React from "react"
-import picture from "../../assets/avatar.png"
-
-const Banner = () => {
+const HomeBanner = () => {
   return (
     <section className="w-full pt-20 border-b border-b-neutral-200">
       <div className="flex-container">
@@ -27,7 +24,7 @@ const Banner = () => {
         </div>
         <div className="w-1/2 relative">
           <img
-            src={picture}
+            src="/images/avatar.png"
             alt="My picture"
             className="absolute bottom-0 right-0 max-h-[38rem]"
           />
@@ -37,4 +34,4 @@ const Banner = () => {
   )
 }
 
-export default Banner
+export default HomeBanner

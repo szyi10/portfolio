@@ -1,6 +1,3 @@
-import img2 from "../assets/projects/2.webp"
-import img4 from "../assets/projects/4.webp"
-
 export const projects = [
   {
     id: "raceroot",
