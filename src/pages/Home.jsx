@@ -13,8 +13,8 @@ const Home = () => {
       exit={{ opacity: 0 }}
     >
       <Banner />
-      <Technologies />
-      <Projects />
+      {/* <Technologies />
+      <Projects /> */}
     </motion.div>
   )
 }
