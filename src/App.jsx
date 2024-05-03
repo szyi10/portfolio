@@ -1,10 +1,9 @@
-import React from "react"
 import { Routes, Route, useLocation } from "react-router-dom"
 import { AnimatePresence } from "framer-motion"
 
 import { Home } from "./pages"
 // import Footer from "./components/Footer/Footer"
-// import Navbar from "./components/Navbar/Navbar"
+import Navbar from "./components/Navbar"
 import NotFound from "./pages/NotFound"
 
 const App = () => {
@@ -12,7 +11,7 @@ const App = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <main>
         <AnimatePresence>
           <Routes location={location} key={location.pathname}>

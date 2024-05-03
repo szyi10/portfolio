@@ -1,3 +1,22 @@
+export const navLinks = [
+  {
+    label: "Home",
+    href: "#home",
+  },
+  {
+    label: "About",
+    href: "#about",
+  },
+  {
+    label: "Projects",
+    href: "#portfolio",
+  },
+  {
+    label: "Contact",
+    href: "#contact",
+  },
+]
+
 export const techStack = [
   {
     icon: "/images/tech-icons/html.png",

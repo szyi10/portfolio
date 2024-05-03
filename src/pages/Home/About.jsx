@@ -2,7 +2,7 @@ import { aboutList, aboutLanguagesSkills } from "../../lib/constants"
 
 const About = () => {
   return (
-    <section className="bg-neutral-900 text-white py-20">
+    <section id="#about" className="bg-neutral-900 text-white py-20">
       <div className="container">
         <div className="flex flex-col items-center lg:items-start">
           <h6 className="uppercase text-sm font-medium tracking-widest text-neutral-500 mb-5">
