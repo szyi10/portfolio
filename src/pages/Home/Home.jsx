@@ -4,6 +4,7 @@ import HomeBanner from "./HomeBanner"
 import TechStack from "./TechStack"
 import About from "./About"
 import Projects from "./Projects/Projects"
+import Contact from "./Contact/Contact"
 
 const Home = () => {
   return (
@@ -16,6 +17,10 @@ const Home = () => {
       <TechStack />
       <About />
       <Projects />
+      <div className="container">
+        <div className="w-full h-[1px] bg-neutral-200" />
+      </div>
+      <Contact />
     </motion.div>
   )
 }

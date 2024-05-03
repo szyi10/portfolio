@@ -31,7 +31,7 @@ const Project = ({ data, index }) => {
                 idx < 3 && (
                   <div
                     key={tag}
-                    className="flex items-center border border-neutral-300 rounded-[6px] gap-2 px-4 py-2 hover:bg-neutral-300 transition-colors cursor-default"
+                    className="flex items-center border border-neutral-300 rounded-[6px] gap-2 px-4 py-2 hover:bg-neutral-300 transition-colors"
                   >
                     <p className="text-xs font-semibold text-neutral-700">
                       {tag}

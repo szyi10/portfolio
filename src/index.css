@@ -25,4 +25,18 @@
   .button-outline {
     @apply button bg-transparent text-neutral-900;
   }
+
+  .form-control {
+    position: relative;
+    width: 100%;
+  }
+
+  .form-control label {
+    @apply absolute -top-2.5 left-4 bg-white px-2.5 text-sm font-medium uppercase text-neutral-700;
+  }
+
+  .form-control input,
+  .form-control textarea {
+    @apply text-sm p-3 border border-neutral-200 rounded-[6px] focus:outline-none focus:border-neutral-900 transition-colors w-full;
+  }
 }

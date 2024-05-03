@@ -34,7 +34,7 @@ const Projects = () => {
             My portfolio
           </h3>
         </div>
-        <div className="flex flex-wrap items-center justify-center gap-4">
+        <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
           {projectCategoires.map((category) => (
             <ProjectCategory
               key={category}
@@ -44,7 +44,7 @@ const Projects = () => {
             />
           ))}
         </div>
-        <div className="flex flex-col mt-8">
+        <div className="flex flex-col mt-4">
           {filteredProjects.map((project, index) => (
             <Project key={project.name} data={project} index={index} />
           ))}
