@@ -6,6 +6,9 @@ export default {
       sans: "Poppins",
     },
     extend: {
+      screens: {
+        xs: "375px",
+      },
       fontFamily: {
         display: "Kumbh Sans",
       },
