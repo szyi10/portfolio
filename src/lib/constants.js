@@ -48,3 +48,33 @@ export const techStack = [
     label: "MySQL",
   },
 ]
+
+export const aboutList = [
+  {
+    label: "Age",
+    value: 20,
+  },
+  {
+    label: "Residence",
+    value: "Poland",
+  },
+  {
+    label: "Freelance",
+    value: "Available",
+  },
+  {
+    label: "Address",
+    value: "Dąbrowa Górnicza, Poland",
+  },
+]
+
+export const aboutLanguagesSkills = [
+  {
+    label: "Polish",
+    value: 100,
+  },
+  {
+    label: "English",
+    value: 85,
+  },
+]

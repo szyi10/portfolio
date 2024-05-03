@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 
 import HomeBanner from "./HomeBanner"
 import TechStack from "./TechStack"
+import About from "./About"
 // import Projects from "../../components/Projects/Projects"
 // import Technologies from "../../components/Technologies/Technologies"
 
@@ -14,8 +15,7 @@ const Home = () => {
     >
       <HomeBanner />
       <TechStack />
-      {/* <Technologies />
-      <Projects /> */}
+      <About />
     </motion.div>
   )
 }

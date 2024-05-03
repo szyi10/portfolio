@@ -2,7 +2,7 @@ import { techStack } from "../../lib/constants"
 
 const TechStack = () => {
   return (
-    <section id="tech-stack" className="my-20">
+    <section id="tech-stack" className="py-20">
       <div className="flex-container flex-wrap gap-4 max-w-screen-lg justify-center">
         {techStack.map((stack) => (
           <div
