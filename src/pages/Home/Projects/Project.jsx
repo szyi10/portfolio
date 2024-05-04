@@ -17,12 +17,18 @@ const Project = ({ data, index }) => {
               className="rounded-[6px] mt-4 shadow"
             />
             <div className="flex gap-2 mt-2">
-              <button className="button text-xs px-6 py-3 w-1/2">
+              <a
+                href={data.previewLink}
+                className="button text-xs px-6 py-3 w-1/2 text-center"
+              >
                 Preview
-              </button>
-              <button className="button-outline text-xs px-6 py-3 w-1/2">
+              </a>
+              <a
+                href={data.githubLink}
+                className="button-outline text-xs px-6 py-3 w-1/2 text-center"
+              >
                 Source code
-              </button>
+              </a>
             </div>
           </div>
           <div className="mt-4 md:mt-6 flex justify-center md:justify-normal gap-2">
