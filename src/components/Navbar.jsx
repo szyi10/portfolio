@@ -32,7 +32,7 @@ const Navbar = () => {
         )}
       >
         <div className="flex-container items-center justify-between">
-          <div className="font-display font-black text-3xl uppercase flex items-center">
+          <div className="font-display font-black text-3xl flex items-center">
             <img
               src={menu}
               width={16}

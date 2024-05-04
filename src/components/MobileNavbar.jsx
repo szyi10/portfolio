@@ -21,7 +21,7 @@ const MobileNavbar = ({ menuOpened, toggle, close }) => {
         )}
       >
         <div className="h-20 flex items-center px-4">
-          <div className="font-display font-black text-3xl uppercase flex items-center justify-between w-full">
+          <div className="font-display font-black text-3xl flex items-center justify-between w-full">
             <a href="#">szyi</a>
             <span onClick={toggle} className="text-base font-normal font-sans">
               ✖️
