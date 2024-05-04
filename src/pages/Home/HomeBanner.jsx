@@ -16,7 +16,13 @@ const HomeBanner = () => {
             React, Tailwind, Node.js, Express.js, MongoDB and many more!
           </p>
           <div className="flex flex-col xs:flex-row mt-[50px] gap-4 w-full xs:w-auto">
-            <button className="button">Download CV</button>
+            <a
+              href="/docs/CV-EN.pdf"
+              download="Szymon-Kędzior-CV"
+              className="button"
+            >
+              Download CV
+            </a>
             <a href="#contact" className="button-outline text-center">
               Hire Me!
             </a>
