@@ -21,7 +21,7 @@ export const projects = [
     ],
     previewLink: "https://raceroot.vercel.app/",
     githubLink: "https://github.com/szyi10/raceroot-frontend",
-    image: "/images/projects/1.webp",
+    image: "/images/projects/raceroot.png",
   },
   {
     name: "Roulette Game",
@@ -30,7 +30,7 @@ export const projects = [
     tags: ["JavaScript", "Websocket", "Backend", "SASS", "Node"],
     previewLink: "",
     githubLink: "",
-    image: "/images/projects/2.webp",
+    image: "/images/projects/roulette-game.png",
   },
   {
     name: "Renax",
@@ -38,7 +38,7 @@ export const projects = [
     tags: ["Frontend", "TypeScript", "React", "TailwindCSS"],
     previewLink: "",
     githubLink: "",
-    image: "/images/projects/5.webp",
+    image: "/images/projects/renax.png",
   },
   {
     name: "Password Generator",
@@ -46,6 +46,6 @@ export const projects = [
     tags: ["Vue", "JavaScript"],
     previewLink: "",
     githubLink: "",
-    image: "/images/projects/4.webp",
+    image: "/images/projects/password-generator.png",
   },
 ]
