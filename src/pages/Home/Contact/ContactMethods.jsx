@@ -24,16 +24,16 @@ const ContactMethod = () => {
           <div className="group/contact-link flex justify-between cursor-pointer">
             <span className="text-sm uppercase font-medium">twitter:</span>
             <a
-              href="#"
+              href="https://twitter.com/szyked"
               className="transition-colors group-hover/contact-link:text-emerald-500"
             >
-              @szyiked
+              @szyked
             </a>
           </div>
           <div className="group/contact-link flex justify-between cursor-pointer">
-            <span className="text-sm uppercase font-medium">discrod:</span>
+            <span className="text-sm uppercase font-medium">discord:</span>
             <a
-              href="#"
+              href="https://discord.com/"
               className="transition-colors group-hover/contact-link:text-emerald-500"
             >
               @szyi
@@ -42,7 +42,7 @@ const ContactMethod = () => {
           <div className="group/contact-link flex justify-between cursor-pointer">
             <span className="text-sm uppercase font-medium">github:</span>
             <a
-              href="#"
+              href="https://github.com/szyi10/"
               className="transition-colors group-hover/contact-link:text-emerald-500"
             >
               szyi10
@@ -51,7 +51,7 @@ const ContactMethod = () => {
           <div className="group/contact-link flex justify-between cursor-pointer">
             <span className="text-sm uppercase font-medium">linkedin:</span>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/szymon-ked16/"
               className="transition-colors group-hover/contact-link:text-emerald-500"
             >
               Szymon Kędzior
