@@ -32,7 +32,7 @@ const About = () => {
                 </a>{" "}
                 section. If you&apos;d like to get in touch, you can check{" "}
                 <a
-                  href="#"
+                  href="#contact"
                   className="text-emerald-500 underline underline-offset-4"
                 >
                   contact
@@ -42,9 +42,13 @@ const About = () => {
                 huge racing fan.
               </p>
             </div>
-            <button className="button bg-white text-neutral-900 hidden md:block">
+            <a
+              href="/docs/CV-EN.pdf"
+              download="Szymon-Kędzior-CV"
+              className="button bg-white text-neutral-900 hidden md:block"
+            >
               Download CV
-            </button>
+            </a>
           </div>
           <div className="w-full md:w-1/2 lg:w-2/5 flex flex-col justify-between">
             <ul className="flex flex-col gap-4">
