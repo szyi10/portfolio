@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { navLinks } from "../lib/constants"
+import { HashLink } from "react-router-hash-link"
 import MobileNavbar from "./MobileNavbar"
 import menu from "../assets/menu.svg"
 import { twMerge } from "tailwind-merge"
@@ -43,13 +44,14 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex items-center gap-4">
             {navLinks.map((link) => (
-              <a
-                href={link.href}
+              <HashLink
+                smooth
+                to={link.href}
                 key={link.href}
                 className="hover:text-emerald-500 transition-colors"
               >
                 {link.label}
-              </a>
+              </HashLink>
             ))}
           </div>
           <div className="flex items-center gap-4 text-2xl text-neutral-900">

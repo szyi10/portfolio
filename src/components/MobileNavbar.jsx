@@ -1,5 +1,6 @@
 import { twMerge } from "tailwind-merge"
 import { navLinks } from "../lib/constants"
+import { HashLink } from "react-router-hash-link"
 
 const MobileNavbar = ({ menuOpened, toggle, close }) => {
   return (
@@ -29,14 +30,14 @@ const MobileNavbar = ({ menuOpened, toggle, close }) => {
         </div>
         <div className="md:hidden flex flex-col gap-4 px-4 py-4">
           {navLinks.map((link) => (
-            <a
+            <HashLink
               onClick={close}
-              href={link.href}
+              to={link.href}
               key={link.href}
               className="hover:text-emerald-500 transition-colors text-lg"
             >
               {link.label}
-            </a>
+            </HashLink>
           ))}
         </div>
       </div>

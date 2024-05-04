@@ -24,7 +24,7 @@ const Projects = () => {
   }
 
   return (
-    <section className="py-20">
+    <section id="portfolio" className="py-20">
       <div className="container">
         <div className="flex flex-col items-center">
           <h6 className="uppercase text-sm font-medium tracking-widest text-neutral-500 mb-5">
