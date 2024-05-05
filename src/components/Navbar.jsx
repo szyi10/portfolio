@@ -39,6 +39,7 @@ const Navbar = () => {
               height={16}
               className="flex md:hidden order mr-3"
               onClick={toggleMenu}
+              alt="Menu"
             />
             <a href="#">szyi</a>
           </div>

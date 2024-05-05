@@ -1,3 +1,4 @@
+import { motion } from "framer-motion"
 import { aboutList, aboutLanguagesSkills } from "../../lib/constants"
 
 const About = () => {
@@ -75,10 +76,16 @@ const About = () => {
                       {skill.label}
                     </span>
                     <div className="w-full bg-neutral-800 rounded-[6px] h-2">
-                      <div
+                      <motion.div
+                        initial={{ width: "50%" }}
+                        whileInView={{ width: `${skill.value}%` }}
+                        transition={{
+                          duration: 0.5,
+                          ease: "easeOut",
+                          delay: 0.2,
+                        }}
                         className="bg-emerald-500 h-2 rounded-[6px]"
-                        style={{ width: `${skill.value}%` }}
-                      ></div>
+                      ></motion.div>
                     </div>
                   </div>
                 ))}
