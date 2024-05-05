@@ -27,14 +27,14 @@ const About = () => {
                 exciting collaborations. You can see my work on{" "}
                 <a
                   href="#portfolio"
-                  className="text-emerald-500 underline underline-offset-4"
+                  className="text-blue-500 underline underline-offset-4"
                 >
                   portfolio
                 </a>{" "}
                 section. If you&apos;d like to get in touch, you can check{" "}
                 <a
                   href="#contact"
-                  className="text-emerald-500 underline underline-offset-4"
+                  className="text-blue-500 underline underline-offset-4"
                 >
                   contact
                 </a>{" "}
@@ -84,7 +84,7 @@ const About = () => {
                           ease: "easeOut",
                           delay: 0.2,
                         }}
-                        className="bg-emerald-500 h-2 rounded-[6px]"
+                        className="bg-blue-500 h-2 rounded-[6px]"
                       ></motion.div>
                     </div>
                   </div>

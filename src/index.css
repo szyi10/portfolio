@@ -24,7 +24,7 @@ html {
     border-radius: 6px;
     font-size: 15px;
     font-weight: 500;
-    @apply bg-neutral-900 text-white border border-neutral-900 transition-colors hover:bg-emerald-500 hover:border-emerald-500 hover:text-white;
+    @apply bg-neutral-900 text-white border border-neutral-900 transition-colors hover:bg-blue-500 hover:border-blue-500 hover:text-white;
   }
 
   .button-outline {

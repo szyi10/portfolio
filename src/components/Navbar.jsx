@@ -49,7 +49,7 @@ const Navbar = () => {
                 smooth
                 to={link.href}
                 key={link.href}
-                className="hover:text-emerald-500 transition-colors"
+                className="hover:text-blue-500 transition-colors"
               >
                 {link.label}
               </HashLink>
@@ -57,10 +57,10 @@ const Navbar = () => {
           </div>
           <div className="flex items-center gap-4 text-2xl text-neutral-900">
             <a href="https://github.com/szyi10">
-              <i className="fa-brands fa-github hover:text-emerald-500 transition-colors"></i>
+              <i className="fa-brands fa-github hover:text-blue-500 transition-colors"></i>
             </a>
             <a href="https://www.linkedin.com/in/szymon-ked16/">
-              <i className="fa-brands fa-linkedin hover:text-emerald-500 transition-colors"></i>
+              <i className="fa-brands fa-linkedin hover:text-blue-500 transition-colors"></i>
             </a>
           </div>
         </div>

@@ -20,7 +20,7 @@ const HomeBanner = () => {
             className="flex flex-col text-[70px] lg:text-[85px] font-semibold leading-[1.15] font-display text-center lg:text-start"
           >
             Hello, I&apos;m
-            <span className="font-bold text-emerald-500">Szymon Kędzior</span>
+            <span className="font-bold text-blue-500">Szymon Kędzior</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
