@@ -32,18 +32,28 @@ const ContactForm = () => {
       {/* Name & Email */}
       <div className="flex flex-col lg:flex-row w-full gap-6">
         <div className="form-control">
-          <label>Your Name</label>
-          <input type="text" value={name} onChange={changeName} />
+          <label htmlFor="name">Your Name</label>
+          <input type="text" value={name} name="name" onChange={changeName} />
         </div>
         <div className="form-control">
-          <label>Your Email</label>
-          <input type="email" value={email} onChange={changeEmail} />
+          <label htmlFor="email">Your Email</label>
+          <input
+            type="email"
+            value={email}
+            name="email"
+            onChange={changeEmail}
+          />
         </div>
       </div>
       {/* Message */}
       <div className="form-control mt-6">
-        <label>Your Message</label>
-        <textarea rows={5} value={message} onChange={changeMessage}></textarea>
+        <label htmlFor="message">Your Message</label>
+        <textarea
+          rows={5}
+          value={message}
+          name="message"
+          onChange={changeMessage}
+        ></textarea>
       </div>
       {/* Button */}
       <button className="button w-full mt-3">Send Message</button>

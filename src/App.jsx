@@ -7,6 +7,7 @@ const Home = lazy(() => import("./pages/Home/Home"))
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import NotFound from "./pages/NotFound"
+import LoadingScreen from "./components/LoadingScreen"
 
 const App = () => {
   const location = useLocation()
@@ -15,7 +16,7 @@ const App = () => {
     <>
       <Navbar />
       <main>
-        <Suspense fallback={<p>Loading...</p>}>
+        <Suspense fallback={<LoadingScreen />}>
           <AnimatePresence>
             <Routes location={location} key={location.pathname}>
               <Route path="/" element={<Home />} />

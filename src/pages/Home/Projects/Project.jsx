@@ -1,6 +1,13 @@
+import { motion } from "framer-motion"
+
 const Project = ({ data, index }) => {
   return (
-    <article className="group/project cursor-pointer flex flex-col md:flex-row gap-8 lg:gap-16 last-of-type:border-0 border-b border-b-neutral-300 pt-4 pb-6 ">
+    <motion.article
+      initial={{ x: 0, opacity: 0 }}
+      whileInView={{ x: 0, opacity: 1 }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
+      className="group/project cursor-pointer flex flex-col md:flex-row gap-8 lg:gap-16 last-of-type:border-0 border-b border-b-neutral-300 pt-4 pb-6 "
+    >
       <div className="flex items-center w-full md:w-1/2">
         <div>
           <span className="text-lg tracking-widest font-bold text-neutral-700">
@@ -71,7 +78,7 @@ const Project = ({ data, index }) => {
           </div>
         </div>
       </div>
-    </article>
+    </motion.article>
   )
 }
 
