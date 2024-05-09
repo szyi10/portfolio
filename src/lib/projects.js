@@ -41,11 +41,12 @@ export const projects = [
     image: "/images/projects/renax.png",
   },
   {
-    name: "Password Generator",
-    description: "Website for generating or checking passwords.",
-    tags: ["React", "Redux", "JavaScript"],
-    previewLink: "https://password-generator-a75c3.web.app/",
-    githubLink: "https://github.com/szyi10/password-generator",
+    name: "Pswrd App",
+    description:
+      "App to check the strength of passwords and generate new ones.",
+    tags: ["Vue", "Vuex", "TypeScript", "JavaScript"],
+    previewLink: "https://szyi-pswrd.vercel.app/",
+    githubLink: "https://github.com/szyi10/pswrd-app",
     image: "/images/projects/password-generator.png",
   },
 ]
