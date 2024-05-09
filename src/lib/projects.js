@@ -49,4 +49,21 @@ export const projects = [
     githubLink: "https://github.com/szyi10/pswrd-app",
     image: "/images/projects/password-generator.png",
   },
+  {
+    name: "Portfolio",
+    description: "Web Developer website",
+    tags: ["React", "Frontend", "TailwindCSS", "JavaScript"],
+    previewLink: "https://www.szyi.xyz/",
+    githubLink: "https://github.com/szyi10/portfolio",
+    image: "/images/projects/my-portfolio.png",
+  },
+  {
+    name: "Giarddesign",
+    description:
+      "Website created during the recruitment process for the adRespect.pl agency.",
+    tags: ["Frontend", "TailwindCSS", "JavaScript"],
+    previewLink: "https://giarddesign-e7080.web.app/",
+    githubLink: "https://github.com/szyi10/landing-page",
+    image: "/images/projects/giarddesign.png",
+  },
 ]

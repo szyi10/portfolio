@@ -15,7 +15,15 @@ const Projects = () => {
       )
       setFilteredProjects(filtered)
     } else {
-      setFilteredProjects(projects)
+      let selectedProject = []
+      const amountOfProjects = projects.length // Amount of projects without selceted tag | projects.length = all
+
+      projects.map((project, index) => {
+        if (index < amountOfProjects) {
+          selectedProject.push(project)
+        }
+      })
+      setFilteredProjects(selectedProject)
     }
   }, [selectedCategory])
 
